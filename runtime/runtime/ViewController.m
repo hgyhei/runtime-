@@ -2,7 +2,7 @@
 //  ViewController.m
 //  runtime
 //
-//  Created by tarena on 16/3/8.
+//  Created by hgy on 16/3/8.
 //  Copyright © 2016年 hgy. All rights reserved.
 //
 
@@ -28,7 +28,7 @@
     
     
 }
-//1.没有找到SEL的IMP(实现方法的函数)时就会执行。这个函数是给类利用class_addMethod添加函数的机会。根据文档，如果实现了添加函数代码则返回YES，未实现返回NO。
+//1.没有找到SEL的IMP(指向实现方法的函数)时就会执行。这个函数是给类利用class_addMethod添加函数的机会。根据文档，如果实现了添加函数代码则返回YES，未实现返回NO。
 + (BOOL)resolveInstanceMethod:(SEL)sel
 {
     if (sel == @selector(doSomething)) {

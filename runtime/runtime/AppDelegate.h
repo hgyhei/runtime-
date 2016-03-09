@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  runtime
 //
-//  Created by tarena on 16/3/8.
+//  Created by hgy on 16/3/8.
 //  Copyright © 2016年 hgy. All rights reserved.
 //
 
